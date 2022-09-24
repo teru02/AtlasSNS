@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    background:linear-gradient(#0067C6,#4BA6FA, #FFE32C) fixed;
+    color: white;
+    position: relative;
+}
+
+header{
+    margin: 150px 0 50px 0;
+    text-align: center;
+}
+
+header img{
+    width: 10%;
+}
+
+header p{
+    font-size: 30px;
+}
+
+#container{
+    background-color: black;
+    background:rgba(0,0,0,0.2);
+    border-radius: 10px;
+    width: 20%;
+    /* height:50%; */
+    padding: 30px 10px;
+    /* text-align: center; */
+    margin: 0 auto;
+}
+
+form{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    padding: 0;
+}
+
+label{
+    font-size: 13px;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 0 0 20px 0;
+}
+
+a{
+    color: white;
+}
+
+p{
+    width: 100%;
+    text-align: center;
+}
+
+.caption{
+    padding-bottom: 30px;
+}
+
+.text{
+    font-size: 13px;
+    padding-top: 50px ;
+}
+
+.btn-red{
+    background-color: #ED3A50;
+    margin:0 0 0 auto;
+    display:block;
+    color: white;
+    font-size: 17px;
+    height: 35px;
+    width: 50%;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+.login{
+    font-size: 13px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.error{
+    font-size: 10px;
+    color: #ED3833;
+    text-align: center;
+    margin: 10px 0;
+}
