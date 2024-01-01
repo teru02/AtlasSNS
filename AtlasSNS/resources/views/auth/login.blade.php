@@ -13,7 +13,7 @@
 
 {{ Form::submit('LOGIN',['class'=>'btn-red']) }}
 
-<p class="text"><a href="/register_view">新規ユーザーの方はこちら</a></p>
+<p class="text"><a href="/register">新規ユーザーの方はこちら</a></p>
 
 {!! Form::close() !!}
 

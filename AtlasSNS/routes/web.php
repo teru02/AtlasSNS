@@ -23,8 +23,7 @@
 Route::get('/login', 'Auth\LoginController@login')->name('login');
 Route::post('/login', 'Auth\LoginController@login');
 
-Route::get('/register_view', 'Auth\RegisterController@registerView');
-
+Route::get('/register', 'Auth\RegisterController@register');
 Route::post('/register', 'Auth\Register\RegisterController@register');
 
 // Route::get('/register','Auth\registerController@validator')
