@@ -71,6 +71,7 @@ class RegisterController extends Controller
             $this->create($data);
             return redirect('added')->with('username', $data['username']);
         }
+        return view('auth.register');
 
     }
 
